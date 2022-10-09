@@ -77,7 +77,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.credit}>
-          This web-application was developed by me on NextJS.
+          Built with ❤️ in Marbella, on NextJS.
         </div>
       </main>
     </div>
