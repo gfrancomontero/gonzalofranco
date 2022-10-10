@@ -10,8 +10,22 @@ import {
   faGithub,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import axios from "axios";
 
 export default function Home() {
+  const callAPI = async () => {
+    try {
+      const res = await fetch("http://localhost:3001/users");
+      const data = await res.json();
+      console.log(data);
+    } catch (err) {
+      console.log(err);
+    }
+    // axios
+    //   .get("http://localhost:3001/users")
+    //   .then((response) => console.log(response.data));
+  };
+
   return (
     <div>
       <Head>
@@ -23,6 +37,7 @@ export default function Home() {
       <main
         className={`${styles.fullScreenDiv} ${styles.w100} ${styles.flexCol} ${styles.jca}`}
       >
+        {/* <button onClick={callAPI}>Make API Call</button> */}
         <div className={styles.imageContainer}>
           <Image
             className={styles.image}

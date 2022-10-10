@@ -7,13 +7,13 @@
   overflow: hidden;
   background-color: black;
   .imageContainer {
-    height: 370px;
-    width: 370px;
+    height: 25vw;
+    width: 25vw;
+    max-height: 250px;
+    max-width: 250px;
     overflow: hidden;
     position: relative;
     border-radius: 500px;
-  }
-  .textSection {
   }
   .software {
     margin-bottom: 10px;
