@@ -3,29 +3,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.scss";
 import profilePic from "../public/gonzalofranco.jpg";
 import Link from "next/link";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faGithub,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
-import axios from "axios";
+import SocialMedia from "../components/pages/index/social_media";
 
 export default function Home() {
-  const callAPI = async () => {
-    try {
-      const res = await fetch("http://localhost:3001/users");
-      const data = await res.json();
-      console.log(data);
-    } catch (err) {
-      console.log(err);
-    }
-    // axios
-    //   .get("http://localhost:3001/users")
-    //   .then((response) => console.log(response.data));
-  };
-
   return (
     <div>
       <Head>
@@ -64,36 +44,14 @@ export default function Home() {
             <div>Marbella</div>
           </div>
           <br />
-          <div className={`${styles.flexRow} ${styles.socialMedia}`}>
-            <Link href="https://www.linkedin.com/in/gfrancomontero">
-              <a target="_blank">
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className={styles.fontAwesome}
-                />
-              </a>
-            </Link>
-            <Link href="https://github.com/gfrancomontero/">
-              <a target="_blank">
-                <FontAwesomeIcon
-                  icon={faGithub}
-                  className={styles.fontAwesome}
-                />
-              </a>
-            </Link>
-            <Link href="https://www.twitter.com/gfrancomontero">
-              <a target="_blank">
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className={styles.fontAwesome}
-                />
-              </a>
-            </Link>
-          </div>
+          <SocialMedia/>
+          <Link href="work">
+            <a><h3 className={`${styles.hoverUnderline}`}>See some of my work here</h3></a>
+          </Link>
         </div>
-        <div className={styles.credit}>
-          Built with ❤️ in Marbella, on NextJS.
-        </div>
+        <Link href="https://github.com/gfrancomontero/gonzalofranco">
+          <a className={`${styles.credit} ${styles.hoverUnderline}`}>Built with ❤️ in Marbella, on NextJS.</a>
+        </Link>
       </main>
     </div>
   );

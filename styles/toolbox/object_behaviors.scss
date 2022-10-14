@@ -1,0 +1,17 @@
+.isHidden {
+    display: none;
+  }
+  
+.rb {
+  outline: 1px solid red;
+}
+
+.hoverUnderline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.tac {
+  text-align: center;
+}
