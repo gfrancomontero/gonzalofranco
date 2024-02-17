@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",
     "heroku-postbuild": "next build"
   },
@@ -30,6 +30,7 @@
     "tsparticles": "^2.3.4"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.2",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1"
   },
