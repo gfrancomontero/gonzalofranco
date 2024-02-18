@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  cursor: default;
+}
+
 html,
 body {
   padding: 0;
@@ -6,21 +11,21 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+h1, h2, h3, h4,h5, h6 {
+  margin-bottom: 0;
+}
+
 a {
   color: inherit;
   text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-  cursor: default;
-}
-
-a {
   cursor: pointer !important;
   * {
     cursor: pointer !important;
   }
+}
+
+li {
+  list-style-type: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,4 +36,5 @@ a {
     color: white;
     background: black;
   }
+
 }

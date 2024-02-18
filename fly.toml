@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for gonzalofranco on 2024-02-17T02:15:52+01:00
+# fly.toml app configuration file generated for gonzalofranco-nameless-snow-5475 on 2024-02-17T02:26:48+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'gonzalofranco'
+app = 'gonzalofranco-nameless-snow-5475'
 primary_region = 'mad'
 
 [build]
