@@ -49,16 +49,60 @@ export default function Work() {
       <main className={`${styles.fullScreenDiv} ${styles.w100} ${styles.flexCol} ${styles.jca}`}>
         
         <ScrollContainer>
-          <PortfolioItem
-            fadeUp={FadeUp}
-            companyName="openbroker.com"
-            date="2020 - Present"
-            description="Marketplace for Real Estate Agents"
-            listName="Tech"
-          />
-          <PortfolioItem
-            fadeUp={FadeUp}
-          />
+        <PortfolioItem
+          fadeUp={batch(Fade(-2), Sticky())}
+          companyName="OpenBroker S.L."
+          date="2021-present"
+          description="SaaS Marketplace for B2B Real Estate"
+          technologyList={[
+            { title: "🤖 Back-end", description: "Ruby on Rails" },
+            { title: "🎨 Front-end", description: "React / StimulusJS" },
+            { title: "👨‍💻 Infra", description: "Docker, Circle CI, Heroku, AWS (Lambdas)" },
+            { title: "⚙️  APIs", description: "Stripe, OpenAI, AWS" },
+          ]}
+          businessKPIs={[
+            { title: "💡 MVP", description: "Self-built" },
+            { title: "💰 Raised capital", description: "at 3.2m EUR valuation in 2021" },
+            { title: "👨‍💻 User base", description: "400+ real estate agents use OpenBroker daily" },
+            { title: "🏡 Listings", description: "10.000+ properties on database" },
+          ]}
+        />
+
+        <PortfolioItem
+          fadeUp={batch(Fade(-2), Sticky())}
+          companyName="Cleanhero LLC"
+          date="2019-2021"
+          description="Cleaning your Airbnbs on Autopilot"
+          technologyList={[
+            { title: "🐍 Back-end", description: "Django (Python)" },
+            { title: "🎨 Front-end", description: "Headless" },
+            { title: "👨‍💻 Infra", description: "Docker, Circle CI, Heroku" },
+            { title: "⚙️  APIs", description: "Twilio, Square" },
+          ]}
+          businessKPIs={[
+            { title: "💡 MVP", description: "Self-built" },
+            { title: "💰 Funding", description: "Profitable" },
+            { title: "👨‍💻 User base", description: "120+ apartment cleans in NYC" },
+            { title: "🏡 Listings", description: "10.000+ properties on database" },
+          ]}
+        />
+             
+        <PortfolioItem
+          fadeUp={batch(Fade(-2), Sticky())}
+          companyName="Supercharge Productions LLC"
+          date="2016-2021"
+          description="Media production house"
+          technologyList={[
+            { title: "🤖 Role", description: "CEO / Co Founder" },
+            { title: "🎨 Base", description: "234 5th Avenue, Suite 302, 10001, New York, NY" },
+          ]}
+          businessKPIs={[
+            { title: "💡 Self-built MVP", description: "" },
+            { title: "💰 Funding", description: "Bootstraped" },
+            { title: "👨‍💻 Customer Base", description: "Fortune 500s" },
+            { title: "🏡 Revenue", description: "600k$ / y" },
+          ]}
+        />
              
           
           <ScrollPage>
