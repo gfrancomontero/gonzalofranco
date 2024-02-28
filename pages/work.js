@@ -1,6 +1,7 @@
 // React and Next.js components
 import Head from "next/head";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 
 // Styles
 import styles from "../styles/Work.module.scss";
@@ -114,6 +115,9 @@ export default function Work() {
                 New York, NY, 10021<br />
                 hey@gonzalofranco.com
               </span>
+              <br />
+              <br />
+              <Link href="/">BACK HOME</Link>
             </Animator>
           </ScrollPage>
         </ScrollContainer>

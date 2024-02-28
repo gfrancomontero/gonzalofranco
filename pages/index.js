@@ -45,7 +45,7 @@ export default function Home() {
           <br />
           <SocialMedia/>
           <Link href="work">
-            <a><h3 className={`${styles.hoverUnderline} ${styles.isHidden}`}>See some of my work here</h3></a>
+            <a><h3 className={`${styles.hoverUnderline}`}>See some of my work here</h3></a>
           </Link>
         </div>
         <Link href="https://github.com/gfrancomontero/gonzalofranco">

@@ -9,7 +9,7 @@ const PortfolioItem = ({ fadeUp, companyName, date, description, technologyList,
   return (
     <ScrollPage>
       <Animator animation={fadeUp}>
-        <div className={`${styles.workCard} ${styles.rb}`}>
+        <div className={`${styles.workCard}`}>
           <div className={`${styles.content} ${styles.flexCol} ${styles.jca}`}>
             <div className={`${styles.textContainer} ${styles.flexCol} ${styles.jcc}`}>
               <h1>{companyName}</h1>
@@ -25,6 +25,8 @@ const PortfolioItem = ({ fadeUp, companyName, date, description, technologyList,
                   <li key={index}><strong>{item.title}</strong>: {item.description}</li>
                 ))}
               </ul>
+              <br />
+              <span>Keep scrolling...</span>
             </div>
           </div>
         </div> 
