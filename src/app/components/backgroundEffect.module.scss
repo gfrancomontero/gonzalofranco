@@ -1,0 +1,25 @@
+.mainContainer {
+  background-color: #010221; /* Very dark green */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Ensure it is behind other content */
+  overflow: hidden;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 175vh; /* Diameter of the circle (200px radius) */
+    height: 175vh;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0) 60%);
+    transition: opacity 0.3s;
+    left: var(--mouse-x);
+    top: var(--mouse-y);
+    transform: translate(-50%, -50%);
+  }
+}
+  
