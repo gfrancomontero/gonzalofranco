@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React from 'react'
 import styles from './Nav.module.scss'
 
 const navItems = [
@@ -8,11 +8,10 @@ const navItems = [
   { id: 3, label: 'Projects' }
 ];
 
-export default function Nav() {
-  const [selected, setSelected] = useState(1);
+export default function Nav({selected, setSelected}) {
 
   return (
-    <nav className="absolute ml-14 hidden lg:flex flex-col text-slate-400 mt-28 w-fit">
+    <nav className="ml-14 sticky bottom-60 hidden lg:flex flex-col text-slate-400 mt-28 w-fit">
       {navItems.map(item => (
         <div
           key={item.id}

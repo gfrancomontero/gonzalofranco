@@ -3,9 +3,12 @@ import React, { useRef, useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from './card.module.scss';
 import { Chip } from '@nextui-org/react';  // Ensure the import path matches the installed package
+import {Image} from "@nextui-org/image";
 
-const ExperienceCard = ({ experience }) => {
-  const { title, company, location, range, url, skills, responsibilities } = experience;
+
+const ProjectCard = ({ project }) => {
+
+  const { position, title, cover, github, external, tech, description } = project;
 
   // State to track if the card is in focus
   const [isInFocus, setIsInFocus] = useState(false);
@@ -38,38 +41,29 @@ const ExperienceCard = ({ experience }) => {
     };
   }, []); // Empty dependency array ensures this effect runs only once
 
+
   return (
     <div
       ref={cardRef}
-      className={`${styles.card} ${isInFocus ? styles.infocus : ''} cursor-default text-slate-400 transition my-6 flex flex-col xl:flex-row rounded-lg p-6`}
+      className={`${styles.card} ${isInFocus ? styles.infocus : ''} cursor-default text-slate-400 transition my-6 flex flex-col ${position%2 == 0 ? 'xl:flex-row' : 'xl:flex-row-reverse'} rounded-lg p-6`}
     >
-      <div className={`${styles.range} transition uppercase mr-4 min-w-[160px] text-sm text-left mb-4`}>
-        {range}
+      <div className={`${styles.position} transition uppercase ${position%2 == 0 ? 'mr' : 'ml'}-4 min-w-[160px] mb-4 flex flex-col justify-center	`}>
+        <Image width={300} alt="NextUI hero Image" src={`projects/${cover}`} />
       </div>
       <div className={`${styles.content} text-left text-sm flex-1`}>
         <h3 className="text-slate-200 text-lg">
-          {title} @{' '}
-          <Link href={url} target="_blank" className="transition">
-            {company}
+          {title} {' '}
+          <Link href={external} target="_blank" className="transition">
+            {external}
           </Link>
         </h3>
-        <p className="cursor-default text-slate-200 text-md mb-2">{location}</p>
-        {responsibilities.map((line, index) => (
-          <p className="cursor-default mb-3" key={index}>
-            {line}
-          </p>
-        ))}
+        <p className="cursor-default text-slate-200 text-md mb-2">{description}</p>
         <div className="flex flex-wrap mt-6">
-          {skills &&
-            skills.map((skill, index) => (
-              <Chip
-                className={`${styles.chip} mr-2 mb-2 md:mr-4 md:mb-4 cursor-default transition text-green-300`}
-                color="secondary"
-                variant="flat"
-                key={index}
-              >
+          {tech &&
+            tech.map((skill, index) => (
+              <span key={index} className="mr-2 mb-2 font-mono text-green-300 cursor-default transition text-green-300">
                 {skill}
-              </Chip>
+              </span>
             ))}
         </div>
       </div>
@@ -77,4 +71,4 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-export default ExperienceCard;
+export default ProjectCard;

@@ -3,7 +3,6 @@ import React from 'react'
 import LeftPannel from '../components/home/LeftPannel.js'
 import RightPannel from '../components/home/RightPannel.js'
 import BackgroundEffect from '../components/BackgroundEffect';
-import Nav from '../components/home/leftPannelComponents/Nav'
 import ContactIcons from '../components/home/leftPannelComponents/ContactIcons'
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <BackgroundEffect />
       <LeftPannel />
       <RightPannel />
-      <Nav />
       <ContactIcons />
     </main>
   );

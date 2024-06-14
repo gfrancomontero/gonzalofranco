@@ -1,6 +1,16 @@
 .contactIcons {
-  top: 20rem;
-  bottom: unset;
+  top: 18rem;
+  @media (max-width: 640px) {
+    left: 1rem;
+  }
+  @media (min-width: 640px) {
+    top: 22rem;
+    bottom: unset;
+  }
+  @media (min-width: 768px) {
+    top: 20rem;
+    bottom: unset;
+  }
   @media (min-width: 1024px) {
     top: unset;
     bottom: 3.5rem;

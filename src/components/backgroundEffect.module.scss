@@ -15,7 +15,7 @@
     height: 175vh;
     border-radius: 50%;
     pointer-events: none;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0) 60%);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.084), rgba(255, 255, 255, 0) 60%);
     transition: opacity 0.3s;
     left: var(--mouse-x);
     top: var(--mouse-y);

@@ -6,7 +6,7 @@ const Intro: React.FC = () => {
   const skills: string[] = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Ruby', 'Python', 'Solidity', 'Node.js', 'AWS', 'OpenAI Vision', 'GraphQL', 'JWT', '...'];
 
   return (
-    <div className="md:px-10 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
+    <div className="md:px-10 mt-40 md:mt-0 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
       <p className="mb-4">
         My journey in software engineering began several years ago when I started exploring custom automation flows and optimizing business functionalities with tech. The right amount of curiosity taught me many of the intricacies of Infra & Backend systems.
       </p>
@@ -40,7 +40,7 @@ const Intro: React.FC = () => {
       </p>
       <ul className="flex flex-wrap">
         {skills && skills.map((skill, i) =>
-          <Chip className="mr-2 mb-2 md:mr-4 md:mb-4 hover:text-slate-600 cursor-default transition" color="secondary" variant="flat" key={i}>{skill}</Chip>
+          <Chip className="mr-2 mb-2 hover:text-slate-600 cursor-default transition" color="secondary" variant="flat" key={i}>{skill}</Chip>
         )}
       </ul>
     </div>
