@@ -7,13 +7,18 @@ import ContactIcons from './leftPannelComponents/ContactIcons.js'
 
 const leftPannel = () => {
   return (
-    <div className="  w-full h-full
-                      flex flex-col justify-between
-                      md:p-18 md:pl-4 p-14 lg:overflow-y-scroll
-                      ">
-      <div className="w-full text-center md:text-left">
-        <Intro />
-        <Experience />
+    <div className="flex flex-col lg:overflow-y-scroll  h-full">
+      <div className="  w-full
+                        flex flex-col justify-between
+                        md:p-18 md:pl-4 sm:p-14 p-4
+                        ">
+                          <Intro />
+      </div>
+      <div className="  w-full
+                        flex flex-col justify-between
+                        md:p-18 md:pl-4 sm:p-14 p-4
+                        ">
+                          <Experience />
       </div>
     </div>
   )

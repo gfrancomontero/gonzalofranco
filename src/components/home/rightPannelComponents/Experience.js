@@ -42,11 +42,11 @@ const Intro = () => {
   const experience = getAllExperienceData();
 
   return (
-    <div className="text-lg w-full text-center md:text-left leading-normal text-slate-400">
+    <>
       {experience.map((exp, index) => (
         <ExperienceCard key={index} experience={exp} />
       ))}
-    </div>
+    </>
   );
 };
 

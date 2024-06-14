@@ -14,7 +14,7 @@ const ExperienceCard = ({ experience }) => {
                               .map(line => line.trim().substring(1).trim()); // Remove the dash and extra spaces
 
   return (
-    <Link href={url} targert="_blank" className={`${styles.card} transition my-6 flex flex-col md:flex-row rounded-lg p-6`}>
+    <Link href={url} targert="_blank" className={`${styles.card} text-slate-400 transition my-6 flex flex-col md:flex-row rounded-lg p-6`}>
       <div className={`${styles.range} transition uppercase mr-4 min-w-[160px] text-sm text-left`}>
         {range}
       </div>

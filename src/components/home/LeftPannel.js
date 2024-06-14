@@ -9,9 +9,9 @@ const leftPannel = () => {
   return (
     <div className="  w-full h-full
                       flex flex-col justify-between
-                      md:p-18 md:pr-4 p-14
+                      md:p-18 md:pr-4 sm:p-14 p-4
                       ">
-      <div className="w-full mb-8 md:mb-0">
+      <div className="w-full mb-8 md:mb-0 rb">
         <Intro />
         <Nav />
       </div>
