@@ -52,7 +52,7 @@ const data = [
                 "date": "2022",
                 "title": "Application Developer",
                 "company": "OB Studio",
-                "location": "Marbella, Spain",
+                "location": "",
                 "range": "Spring 2022 & 2023",
                 "url": "https://www.openbroker.com",
                 "skills": ["+50 Apps Built", "NextJS", "HotWire", "Ruby on Rails", "GraphQL", "Tailwind", "NodeJS"],

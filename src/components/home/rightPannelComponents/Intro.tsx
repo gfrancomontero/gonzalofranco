@@ -8,15 +8,15 @@ const Intro: React.FC = () => {
   return (
     <div className="md:px-10 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
       <p className="mb-4">
-        My journey in software engineering began several years ago when I started exploring custom automation flows and optimizing business functionalities with tech. Yes, I started from absolute zero, but the right amount of curiosity taught me many of the intricacies of Infra & Backend systems.
+        My journey in software engineering began several years ago when I started exploring custom automation flows and optimizing business functionalities with tech. The right amount of curiosity taught me many of the intricacies of Infra & Backend systems.
       </p>
         
       <p className="mb-4">
-        Through this never-ending learning voyage, I discovered my true calling is innovative, impeccably-crafted front-end engineering & modern design.
+        Through this never-ending learning voyage, I discovered my true calling is creating innovative and impeccably-modern front-end code.
       </p>
 
       <p className="mb-4">
-        There&apos;s something uniquely fulfilling about crafting code with such precision and complexity that remains invisible to the non-technical eye, yet integral to every human&apos;s daily digital experiences. It&apos;s basically like building invisible yet essential modern-day world marvels upon which millions rely for their daily routines. There are literally software programs that take longer to produce and require more precision than building the Empire State Building, or the Taj Mahal, or an Airbus A380. As a result, I have become fluent in every HTML, CSS, and JavaScript framework I have shown interest for.
+        There&apos;s something uniquely fulfilling about writing code with such precision and complexity that remains invisible to the non-technical eye, yet integral to every human&apos;s daily digital experiences. It&apos;s basically like building invisible yet essential modern-day world marvels upon which millions rely for their daily routines. There are literally software programs that take longer to produce and require more precision &amp; collaboration than building the Empire State Building, an Airbus A380, or the Taj Mahal. Deep passion turned into sharp skill, I am now fluent in every HTML, CSS, and JavaScript framework I have shown interest for.
       </p>
 
       <p className="mb-4">

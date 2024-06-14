@@ -22,7 +22,7 @@ const ExperienceCard = ({ experience }) => {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 1, // Trigger when 100% of the card is in the viewport
+        threshold: 0.7, // Trigger when 100% of the card is in the viewport
       }
     );
 
@@ -41,7 +41,7 @@ const ExperienceCard = ({ experience }) => {
   return (
     <div
       ref={cardRef}
-      className={`${styles.card} ${isInFocus ? styles.infocus : ''} cursor-default text-slate-400 transition my-6 flex flex-col xl:flex-row xlg:rounded-lg p-6`}
+      className={`${styles.card} ${isInFocus ? styles.infocus : ''} cursor-default text-slate-400 transition my-6 flex flex-col xl:flex-row rounded-lg p-6`}
     >
       <div className={`${styles.range} transition uppercase mr-4 min-w-[160px] text-sm text-left mb-4`}>
         {range}
@@ -63,7 +63,7 @@ const ExperienceCard = ({ experience }) => {
           {skills &&
             skills.map((skill, index) => (
               <Chip
-                className={`${styles.chip} mr-4 mb-4 cursor-default transition text-green-300`}
+                className={`${styles.chip} mr-2 mb-2 md:mr-4 md:mb-4 cursor-default transition text-green-300`}
                 color="secondary"
                 variant="flat"
                 key={index}
