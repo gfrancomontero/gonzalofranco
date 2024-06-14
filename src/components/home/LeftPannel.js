@@ -11,7 +11,7 @@ const leftPannel = () => {
                       flex flex-col justify-between
                       md:p-18 md:pr-4 sm:p-14 p-4
                       ">
-      <div className="w-full mb-8 md:mb-0 rb">
+      <div className="w-full mb-8 md:mb-0">
         <Intro />
         <Nav />
       </div>
