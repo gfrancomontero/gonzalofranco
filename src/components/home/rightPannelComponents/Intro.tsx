@@ -40,7 +40,7 @@ const Intro: React.FC = () => {
       </p>
       <ul className="flex flex-wrap">
         {skills && skills.map((skill, i) =>
-          <Chip className="mr-4 mb-4 hover:text-slate-600 cursor-default transition" color="secondary" variant="flat" key={i}>{skill}</Chip>
+          <Chip className="mr-2 mb-2 md:mr-4 md:mb-4 hover:text-slate-600 cursor-default transition" color="secondary" variant="flat" key={i}>{skill}</Chip>
         )}
       </ul>
     </div>

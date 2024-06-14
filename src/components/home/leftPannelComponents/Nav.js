@@ -12,7 +12,7 @@ export default function Nav() {
   const [selected, setSelected] = useState(1);
 
   return (
-    <nav className="hidden lg:flex flex-col text-slate-400 mt-28 w-fit">
+    <nav className="absolute ml-14 hidden lg:flex flex-col text-slate-400 mt-28 w-fit">
       {navItems.map(item => (
         <div
           key={item.id}
