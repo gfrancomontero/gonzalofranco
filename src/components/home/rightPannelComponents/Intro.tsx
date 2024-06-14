@@ -8,19 +8,20 @@ const Intro: React.FC = () => {
   return (
     <div className="md:px-10 mt-40 md:mt-0 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
       <p className="mb-4">
-        My journey in software engineering began several years ago when I started exploring custom automation flows and optimizing business functionalities with tech. The right amount of curiosity taught me many of the intricacies of Infra & Backend systems.
+        My journey in software engineering began several years ago when I needed to implement custom automation flows to optimize and automate business functionalities with tech. The right amount of curiosity taught me many of the intricacies of Infra & Backend systems.
       </p>
         
       <p className="mb-4">
-        Through this never-ending learning voyage, I discovered my true calling is creating innovative and impeccably-modern front-end code.
+        Throughout this perpetual journey of learning, I discovered my true calling lies in crafting innovative and impeccably modern front-end code.
       </p>
 
       <p className="mb-4">
-        There&apos;s something uniquely fulfilling about writing code with such precision and complexity that remains invisible to the non-technical eye, yet integral to every human&apos;s daily digital experiences. It&apos;s basically like building invisible yet essential modern-day world marvels upon which millions rely for their daily routines. There are literally software programs that take longer to produce and require more precision &amp; collaboration than building the Empire State Building, an Airbus A380, or the Taj Mahal. Deep passion turned into sharp skill, I am now fluent in every HTML, CSS, and JavaScript framework I have shown interest for.
+        There&apos;s a unique fulfillment in writing code with such precision and complexity that it remains invisible to the non-technical eye, yet is integral to everyone&apos;s daily digital experiences. It&apos;s like constructing invisible yet essential modern-world marvels upon which millions of people rely. Some software programs literally demand more time, precision, and collaboration than building the Empire State Building, an Airbus A380, or the Taj Mahal. My deep passion has evolved into sharp skills, making me fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued.
+
       </p>
 
       <p className="mb-4">
-        I find myself captivated by the beauty of mesmerizing design and user experience, and it&apos;s that feeling that drives me to create those designs I admire so much on my own.
+        I am captivated by the beauty of mesmerizing design and user experience, and this lets me spend hours creating the designs I so deeply admire.
       </p>
 
       <p className="mb-4">
