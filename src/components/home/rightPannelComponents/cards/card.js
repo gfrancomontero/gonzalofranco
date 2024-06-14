@@ -1,12 +1,11 @@
-"use client"
+"use client";
 import React, { useRef, useEffect, useState } from 'react';
 import Link from 'next/link';
 import styles from './card.module.scss';
 import { Chip } from '@nextui-org/react';  // Ensure the import path matches the installed package
 
 const ExperienceCard = ({ experience }) => {
-  const { frontmatter, content } = experience;
-  const { title, company, location, range, url, skills } = frontmatter;
+  const { title, company, location, range, url, skills, responsibilities } = experience;
 
   // State to track if the card is in focus
   const [isInFocus, setIsInFocus] = useState(false);
@@ -23,7 +22,7 @@ const ExperienceCard = ({ experience }) => {
       {
         root: null,
         rootMargin: '0px',
-        threshold: 1, // Trigger when 50% of the card is in the viewport
+        threshold: 1, // Trigger when 100% of the card is in the viewport
       }
     );
 
@@ -39,17 +38,12 @@ const ExperienceCard = ({ experience }) => {
     };
   }, []); // Empty dependency array ensures this effect runs only once
 
-  // Split the content into lines and filter out empty lines or lines without a dash
-  const contentLines = content.split('\n')
-                              .filter(line => line.trim().startsWith('-'))
-                              .map(line => line.trim().substring(1).trim()); // Remove the dash and extra spaces
-
   return (
     <div
       ref={cardRef}
-      className={`${styles.card} ${isInFocus ? styles.infocus :  ''} cursor-default text-slate-400 transition my-6 flex flex-col md:flex-row xlg:rounded-lg p-6`}
+      className={`${styles.card} ${isInFocus ? styles.infocus : ''} cursor-default text-slate-400 transition my-6 flex flex-col xl:flex-row xlg:rounded-lg p-6`}
     >
-      <div className={`${styles.range} transition uppercase mr-4 min-w-[160px] text-sm text-left`}>
+      <div className={`${styles.range} transition uppercase mr-4 min-w-[160px] text-sm text-left mb-4`}>
         {range}
       </div>
       <div className={`${styles.content} text-left text-sm flex-1`}>
@@ -60,7 +54,7 @@ const ExperienceCard = ({ experience }) => {
           </Link>
         </h3>
         <p className="cursor-default text-slate-200 text-md mb-2">{location}</p>
-        {contentLines.map((line, index) => (
+        {responsibilities.map((line, index) => (
           <p className="cursor-default mb-3" key={index}>
             {line}
           </p>
