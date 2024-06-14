@@ -54,7 +54,7 @@ const ProjectCard = ({ project }) => {
         <h3 className="text-slate-200 text-lg">
           {title} {' '}
         </h3>
-        <p className="cursor-default text-slate-200 text-md mb-2 mt-4">{description}</p>
+        <p className="cursor-default text-justify text-slate-200 text-md mb-2 mt-4">{description.join(' ')}</p>
         <div className="flex flex-wrap mt-6">
           {tech &&
             tech.map((skill, index) => (

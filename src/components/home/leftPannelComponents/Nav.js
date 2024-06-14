@@ -6,7 +6,7 @@ const navItems = [
   { id: 1, label: 'About' },
   { id: 2, label: 'Experience' },
   { id: 3, label: 'Projects' },
-  { id: 4, label: "What's Next?" }
+  { id: 4, label: "Contact" }
 ];
 
 export default function Nav({selected, setSelected}) {
