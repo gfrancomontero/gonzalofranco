@@ -1,10 +1,25 @@
 ---
-date: '2024-12-5'
-title: 'CEO, Lead Engineer'
-company: 'OpenBroker'
-location: 'Marbella, New York'
-range: 'July 2020 - Present'
-url: 'https://www.openbroker.com/music/'
+position: 10
+date: "2024-12-5"
+title: "CEO, Lead Engineer"
+company: "OpenBroker"
+location: "Marbella, New York"
+range: "July 2020 - Present"
+url: "https://www.openbroker.com/music/"
+skills:
+  [
+    "NextJS",
+    "Algolia AI",
+    "CircleCI",
+    "AWS",
+    "OpenAI Vision",
+    "GraphQL",
+    "Ruby on Rails",
+    "Stimulus JS",
+    "Postgres",
+    "PostGIS",
+    "Sidekiq",
+  ]
 ---
 
 - Built using NextJS, Ruby on Rails, React, Stimulus JS, PostgreSQL, PostGIS, and AWS Web

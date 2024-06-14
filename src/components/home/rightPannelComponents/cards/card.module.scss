@@ -1,0 +1,11 @@
+.card {
+  .chip {
+    background-color: rgba(0, 255, 213, 0.294);
+    }
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.081);
+    .range, span {
+      color: #9ae6b4;
+    }
+  }
+}

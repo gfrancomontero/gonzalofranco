@@ -1,6 +1,9 @@
-import LeftPannel from './components/home/LeftPannel.js'
-import RightPannel from './components/home/RightPannel.js'
-import BackgroundEffect from './components/BackgroundEffect';
+import React from 'react'
+
+import LeftPannel from '../components/home/LeftPannel.js'
+import RightPannel from '../components/home/RightPannel.js'
+import BackgroundEffect from '../components/BackgroundEffect';
+
 
 export default function Home() {
   return (

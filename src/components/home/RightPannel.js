@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './rightPannelComponents/rightPannel.module.scss'
-import Nav from './leftPannelComponents/Nav'
+import Nav from './leftPannelComponents/Nav.js'
 import Intro from './rightPannelComponents/Intro.tsx'
 import Experience from './rightPannelComponents/Experience.js'
-import ContactIcons from './leftPannelComponents/ContactIcons'
+import ContactIcons from './leftPannelComponents/ContactIcons.js'
 
 const leftPannel = () => {
   return (

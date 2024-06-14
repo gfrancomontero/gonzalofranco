@@ -1,10 +1,11 @@
 ---
-date: '2013'
-title: 'Operations Manager'
-company: 'NeueHouse'
-location: 'New York, NY'
-range: 'Jul 2022 - Sept 2023'
-url: 'https://neuehouse.com/'
+position: 60
+date: "2013"
+title: "Operations Manager"
+company: "NeueHouse"
+location: "New York, NY"
+range: "Jul 2012 - Sept 2013"
+url: "https://neuehouse.com/"
 ---
 
 - Worked with a $12M operating budget to oversee construction, installation, and opening processes.

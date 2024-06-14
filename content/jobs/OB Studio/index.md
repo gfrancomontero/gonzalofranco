@@ -1,10 +1,21 @@
 ---
-date: '2022'
-title: 'Application Developer'
-company: 'OB Studio'
-location: 'Marbella, Spain'
-range: 'Spring 2022 & 2023'
-url: 'https://www.openbroker.com'
+position: 30
+date: "2022"
+title: "Application Developer"
+company: "OB Studio"
+location: "Marbella, Spain"
+range: "Spring 2022 & 2023"
+url: "https://www.openbroker.com"
+skills:
+  [
+    "+50 Apps Built",
+    "NextJS",
+    "HotWire",
+    "Ruby on Rails",
+    "GraphQL",
+    "Tailwind",
+    "NodeJS",
+  ]
 ---
 
 - Developed and implemented more than 50 scalable web applications for clients using Next.js, Tailwind, and Node.js.

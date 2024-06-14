@@ -1,10 +1,12 @@
 ---
-date: '2024-12-6'
-title: 'Lead Engineer'
-company: 'CAZASA'
-location: 'New York'
-range: 'February 2024 - Present'
-url: 'https://www.cazasa.com'
+position: 20
+date: "2024-12-6"
+title: "Lead Engineer"
+company: "CAZASA"
+location: "New York"
+range: "Feb 2024 - Present"
+url: "https://www.cazasa.com"
+skills: ["Web3", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku"]
 ---
 
 - Sublet platform for New Yorkers traveling for a minimum of one month, using Next.js, Tailwind, and TypeScript.
