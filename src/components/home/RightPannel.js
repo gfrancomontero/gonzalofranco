@@ -1,8 +1,9 @@
-'use client'
+'use client';
 import React, { useState, useEffect, useRef } from 'react';
 import Intro from './rightPannelComponents/Intro.tsx';
 import Experience from './rightPannelComponents/Experience.js';
-import Projects from './rightPannelComponents/Projects.js'; // Changed to Projects.js
+import Projects from './rightPannelComponents/Projects.js';
+import Footer from './rightPannelComponents/Footer.js';
 import Nav from './leftPannelComponents/Nav';
 
 const RightPannel = () => {
@@ -11,6 +12,7 @@ const RightPannel = () => {
   const introRef = useRef(null);
   const experienceRef = useRef(null);
   const projectsRef = useRef(null);
+  const FooterRef = useRef(null);
 
   useEffect(() => {
     const scrollToSection = (ref) => {
@@ -29,6 +31,9 @@ const RightPannel = () => {
       case 3:
         scrollToSection(projectsRef);
         break;
+      case 4:
+        scrollToSection(FooterRef);
+        break;
       default:
         break;
     }
@@ -45,6 +50,9 @@ const RightPannel = () => {
         </div>
         <div ref={projectsRef} className="w-full flex flex-col justify-between md:p-18 md:pl-4 sm:p-14 p-4">
           <Projects selected={selected} />
+        </div>
+        <div ref={FooterRef} className="w-full flex flex-col justify-between md:p-18 md:pl-4 sm:p-14 p-4">
+          <Footer selected={selected} />
         </div>
       </div>
       <Nav selected={selected} setSelected={setSelected} />
