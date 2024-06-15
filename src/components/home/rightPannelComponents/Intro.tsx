@@ -12,11 +12,11 @@ const Intro: React.FC = () => {
       </p>
         
       <p className="mb-4">
-        Throughout this perpetual journey of discovery, I have perfected an ability that lies in crafting innovative and impeccably modern front-end systems.
+        Throughout this perpetual journey of discovery, I have perfected an ability that lies in crafting modern, innovative, and impeccable front-end systems.
       </p>
 
       <p className="mb-4">
-        There is supreme elegance in carrying out a task with such precision and complexity that it remains invisible to the naked eye, yet crucial to the digital experiences of the general population. It&apos;s like building invisible yet essential modern-world marvels upon which millions rely. Some software programs literally demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. Passion evolved into hard skills, making me fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued.
+        There is supreme elegance in carrying out a task with such precision and complexity that it remains invisible to the naked eye, yet crucial to the digital experiences of the general population. It&apos;s like building invisible yet essential modern-world marvels upon which millions rely. Some software programs literally demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. Passion has turned into a skill, and I have become fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued.
       </p>
 
       <p className="mb-4">
