@@ -18,7 +18,7 @@ export default function Intro() {
       <p className="  text-slate-400 leading-normal
                       mt-4 md:max-w-[500px] sm:max-w-[500px]">
         6 years of hands-on experience in Front-end & Full-stack product development.
-        Proven eye for design. Analytical, ever curious & blazingly fast learner. Love working with people. Always ready to learn new tech. Currently building OpenBroker.
+        Proven eye for design. Analytical, ever-curious, and a blazingly fast learner. Love working with people. Always ready to learn new tech. Currently building OpenBroker.
       </p>
     </>
   )

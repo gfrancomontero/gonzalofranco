@@ -8,15 +8,15 @@ const Intro: React.FC = () => {
   return (
     <div className="md:px-10 mt-40 md:mt-0 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
       <p className="mb-4">
-        My journey in software engineering began several years ago when needing to implement custom automation flows to optimize business functionalities with tech. Curiosity did the rest — the intricacies of Infra & Backend systems became unveiled.
+        My journey in software engineering began several years ago when needing to implement custom automation flows to optimize business functionalities with tech. Curiosity did the rest — The intricacies of Infra & Backend systems were now unveiled.
       </p>
         
       <p className="mb-4">
-        Throughout this perpetual journey of learning, I have discovered my gift lies in crafting innovative and impeccably modern front-end systems.
+        Throughout this perpetual journey of discovery, I have perfected an ability that lies in crafting innovative and impeccably modern front-end systems.
       </p>
 
       <p className="mb-4">
-        After all, there&apos;s supreme elegance in doing something with such precision and complexity that it remains invisible to the naked eye, yet at the same time is integral to everyone&apos;s daily digital experiences. It&apos;s like constructing invisible yet essential modern-world marvels upon which millions rely. Some software programs literally demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. Passion evolved into sharp skills, making me fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued.
+        There is supreme elegance in carrying out a task with such precision and complexity that it remains invisible to the naked eye, yet crucial to the digital experiences of the general population. It&apos;s like building invisible yet essential modern-world marvels upon which millions rely. Some software programs literally demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. Passion evolved into hard skills, making me fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued.
       </p>
 
       <p className="mb-4">
