@@ -8,7 +8,7 @@ const Intro: React.FC = () => {
   return (
     <div className="md:px-10 mt-40 md:mt-0 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
       <p className="mb-4">
-        My journey in software engineering began several years ago when needing to implement custom automation flows to optimize business functionalities with tech. Curiosity did the rest — The intricacies of Infra & Backend systems were now unveiled.
+        My journey in software engineering began several years ago when needing to implement custom automation flows to optimize business functionalities with tech. The intricacies of Infra & Backend systems became unveiled — curiosity did the rest.
       </p>
         
       <p className="mb-4">
