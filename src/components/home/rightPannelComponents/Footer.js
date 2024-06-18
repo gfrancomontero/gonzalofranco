@@ -18,7 +18,7 @@ export default function Footer() {
         Hand-built with ♥ on NextJS
       </p>
       <p className="mt-8 text-slate-600 text-sm w-full text-center">
-        Design credits go to <Link href="github.com/bchiang7">Brittany Chiang</Link>, whom I totally copied this from, with the naked eye, and admiration for her great work.
+        Design credits go to <Link href="github.com/bchiang7" className="text-green-500 opacity-80 cursor-pointer hover:text-green-300 transition">Brittany Chiang</Link>, whom I totally copied this from,<br />with the naked eye, and admiration for her great work.
       </p>
     </div>
   )
