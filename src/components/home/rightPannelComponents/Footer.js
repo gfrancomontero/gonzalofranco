@@ -1,6 +1,8 @@
 import React from 'react'
 import {Image} from "@nextui-org/image";
 import {Code} from "@nextui-org/react";
+import Link from 'next/link';
+
 export default function Footer() {
   return (
     <div className="w-full flex flex-col justify-center items-center align-center text-white mb-18">
@@ -13,7 +15,10 @@ export default function Footer() {
         <Code>mailto:hey@gonzalofranco.com</Code>
       </a>
       <p className="mt-8 text-slate-400 text-sm w-full text-center">
-        Built with ♥ on NextJS
+        Hand-built with ♥ on NextJS
+      </p>
+      <p className="mt-8 text-slate-600 text-sm w-full text-center">
+        Design credits go to <Link href="github.com/bchiang7">Brittany Chiang</Link>, whom I totally copied this from, with the naked eye, and admiration for her great work.
       </p>
     </div>
   )

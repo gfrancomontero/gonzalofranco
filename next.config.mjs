@@ -13,6 +13,10 @@ const nextConfig = {
         destination: 'https://github.com/gfrancomontero',
       },
       {
+        source: '/git',
+        destination: 'https://github.com/gfrancomontero',
+      },
+      {
         source: '/x',
         destination: 'https://x.com/gfrancomontero',
       },
