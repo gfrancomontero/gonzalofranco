@@ -7,7 +7,7 @@ const data = [
                 "location": "New York",
                 "range": "Feb 2024 - Present",
                 "url": "https://www.cazasa.com",
-                "skills": ["Web3", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku"],
+                "skills": ["Web3", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku", "Docker", "Twilio"],
                 "responsibilities": [
                   "Sublet platform for New Yorkers traveling for a minimum of one month, using Next.js, Tailwind, and TypeScript.",
                   "Built backend functionality using Ruby on Rails and integrated notable APIs including Algolia AI and Stripe Payments.",
@@ -30,6 +30,34 @@ const data = [
                   "Managed product development for both iOS and web applications, ensuring seamless user experience and functionality.",
                   "Recruited, hired, and trained freelance full-stack engineers, fostering a skilled and efficient development team.",
                   "Achieved a successful exit demonstrating significant business impact & product scalability."
+                ]
+              },
+              {
+                "position": 50,
+                "date": "2015-2019",
+                "title": "CEO, Co-Founder",
+                "company": "Supercharge Productions Inc.",
+                "location": "New York, NY",
+                "range": "2015 - 2019",
+                "url": "",
+                "skills": [
+                  "Media Buying",
+                  "Paid Media",
+                  "Overseas Production",
+                  "Brand Partnerships",
+                  "Dealroom management",
+                  "Content Creation",
+                  "Production of Turn-key Experiences"
+                ],
+                "responsibilities": [
+                  "Co-founded Supercharge Productions Ltd. and grew it from working in Brooklyn coffee shops to establishing a reputable advertising firm on 5th Avenue, managing million-dollar budgets.",
+                  "Led the agency in brokering content collaborations between influencers and brands, overseeing product development, marketing, client strategy, and P&L.",
+                  "Defined product and go-to-market strategies for clients, fostering innovative and complex client products/services to meet B2C and B2B demands.",
+                  "Identified new business opportunities for clients, driving growth and diversification.",
+                  "Hired and cultivated a team of 19 full-time employees, spanning roles from marketing managers to engineers.",
+                  "Managed high-profile clients including Estée Lauder, Asos, Teva, Sephora, Amazon, FourSquare, Daniel Wellington, Furla, JetBlue, and others.",
+                  "Influencer Management in 2015 was a completely different and much more elevated and profitable landscape than what it is today.",
+                  "Achieved over $3 million USD in revenue throughout the company's lifespan before exiting in 2019."
                 ]
               },
               {
