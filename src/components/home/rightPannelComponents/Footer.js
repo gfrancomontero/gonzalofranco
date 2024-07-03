@@ -15,9 +15,9 @@ export default function Footer() {
         <Code>mailto:hey@gonzalofranco.com</Code>
       </a>
       <p className="mt-8 text-slate-400 text-sm w-full text-center">
-        Built with ♥ on NextJS
+        Built with a lotta ♥ on NextJS
       </p>
-      <p className="mt-8 text-slate-600 text-sm w-full text-center">
+      <p className="hidden mt-8 text-slate-600 text-sm w-full text-center">
         Design credits go to <Link href="www.github.com/bchiang7" target="_blank" className="text-green-500 opacity-80 cursor-pointer hover:text-green-300 transition">Brittany Chiang</Link>, whom I totally copied this from,<br />with the naked eye, and admiration for her great work.
       </p>
     </div>
