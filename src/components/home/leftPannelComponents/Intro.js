@@ -13,7 +13,7 @@ export default function Intro() {
       <h2 className=" text-slate-300 w-full font-medium
                       text-xl md:text-3xl
                       mt-3">
-        Frontend Engineer
+        Software Engineer
       </h2>
       <p className="  text-slate-400 leading-normal
                       mt-4 md:max-w-[500px] sm:max-w-[500px]">

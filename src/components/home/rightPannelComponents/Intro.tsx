@@ -16,11 +16,11 @@ const Intro: React.FC = () => {
             a{' '}<Link href="https://neuehouse.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">NYC startup</Link>,{' '}
             a{' '}<Link href="https://supercharge.nyc/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">content agency</Link>,{' '}
             a{' '}<Link href="https://www.ihg.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">huge corporation</Link>, and{' '}
-            {' '}<Link href="https://openbroker.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">3 of my own startups</Link>.
+            {' '}<Link href="https://linkedin.com/in/gfrancomontero/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">3 of my own startups</Link>.
           </p>
           <p className="mb-4">
-            In addition to my development work, I&apos;ve successfully led teams of 30+ people, managed multi-million dollar production budgets, product lifecycles,
-            and secured significant funding from investors.
+            In addition to my engineering work, I&apos;ve successfully led teams of 30+ people, managed multi-million dollar production budgets, product lifecycles,
+            and been an integral part in securing venture capital, both for my companies and for others.
           </p>
           <div className="flex flex-col mb-12 mt-12">
             <span className="font-mono text-sm text-green-300 cursor-default transition text-green-300">
@@ -29,7 +29,7 @@ const Intro: React.FC = () => {
             <Button className='mt-2 w-fit-content py-1 text-sm px-2' text={'Read More'} onPress={() => setReadMore(true)} />        
           </div>
           <p className="mb-8">
-            Here are a few technologies I&apos;ve been hacking with recently:
+            Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="flex flex-wrap">
             {skills && skills.map((skill, i) =>
@@ -45,11 +45,11 @@ const Intro: React.FC = () => {
           </p>
             
           <p className="mb-4">
-            Throughout this perpetual journey of discovery, I have perfected an ability that lies in crafting modern, innovative, and impeccable front-end systems.
+            Throughout this perpetual journey of discovery, I have perfected an ability that lies in crafting modern, innovative, and impeccable systems.
           </p>
 
           <p className="mb-4">
-            There is supreme elegance in carrying out a task with such precision and complexity that it remains invisible to the naked eye, yet crucial to the digital experiences of the general population. It&apos;s like building invisible yet essential modern-world marvels upon which millions rely. Some software programs literally demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. Passion has turned into a skill, and I have become fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued.
+            There is supreme elegance in carrying out a task with such precision and complexity that it remains invisible to the naked eye, yet crucial to the digital experiences of the general population. It&apos;s like building invisible yet essential modern-world marvels upon which millions rely. Some software programs demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. And that&apos;s fascinating to me. I&apos;m fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued. Strong product, infra & DB experience as well.
           </p>
 
           <p className="mb-4">
@@ -57,18 +57,11 @@ const Intro: React.FC = () => {
           </p>
 
           <p className="mb-4">
-            Again, as you read earlier, I&apos;ve had the opportunity to work in diverse environments including
-            a{' '}<Link href="https://neuehouse.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">NYC startup</Link>,{' '}
-            a{' '}<Link href="https://supercharge.nyc/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">content agency</Link>,{' '}
-            a{' '}<Link href="https://www.ihg.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">huge corporation</Link>, and{' '}
-            {' '}<Link href="https://openbroker.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">3 of my own startups</Link>.
-          </p>
-          <p className="mb-4">
-            In addition to my development work, I&apos;ve successfully led teams of 30+ people, managed multi-million dollar production budgets, product lifecycles,
-            and secured significant funding from investors. My last tech company was {' '}<Link href="https://www.que.madrid/2023/01/19/openbroker-cierra-una-ronda-de-tres-millones-de-euros-encabezada-por-sherry-ventures-391155/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">valued at 3 Million €</Link>.{' '}
+            In addition to my engineering work, I&apos;ve successfully led teams of 30+ people, managed multi-million dollar production budgets, product lifecycles,
+            and been an integral part in securing venture capital, both for my companies and for others. My last tech company was {' '}<Link href="https://www.que.madrid/2023/01/19/openbroker-cierra-una-ronda-de-tres-millones-de-euros-encabezada-por-sherry-ventures-391155/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">valued at 3 Million €</Link>.{' '}
           </p>
           <p className="mb-8">
-            Here are a few technologies I&apos;ve been hacking with recently:
+            Here are a few technologies I&apos;ve been working with recently:
           </p>
           <ul className="flex flex-wrap">
             {skills && skills.map((skill, i) =>

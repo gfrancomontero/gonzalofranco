@@ -3,11 +3,11 @@ const data = [
                 "position": 20,
                 "date": "2024-12-06",
                 "title": "Lead Engineer",
-                "company": "CAZASA",
+                "company": "Sublet NY",
                 "location": "New York",
                 "range": "Feb 2024 - Present",
-                "url": "https://www.cazasa.com",
-                "skills": ["Web3", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku", "Docker", "Twilio"],
+                "url": "https://www.subletny.com",
+                "skills": ["Web3", "Algolia", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku", "Docker", "Twilio"],
                 "responsibilities": [
                   "Sublet platform for New Yorkers traveling for a minimum of one month, using Next.js, Tailwind, and TypeScript.",
                   "Built backend functionality using Ruby on Rails and integrated notable APIs including Algolia AI and Stripe Payments.",
@@ -63,7 +63,7 @@ const data = [
               {
                 "position": 60,
                 "date": "2013",
-                "title": "Operations Manager",
+                "title": "Ops Manager",
                 "company": "NeueHouse",
                 "location": "New York, NY",
                 "range": "Jul 2012 - Sept 2013",
@@ -78,7 +78,7 @@ const data = [
               {
                 "position": 30,
                 "date": "2022",
-                "title": "Application Developer",
+                "title": "App Developer",
                 "company": "OB Studio",
                 "location": "",
                 "range": "Spring 2022 & 2023",
@@ -109,24 +109,24 @@ const data = [
                   "This allowed the creation of database-less property listing portals, streamlining data flow and minimizing redundancy."
                 ]
               },
-              {
-                "position": 1000,
-                "date": "2045",
-                "title": "Designer, Front-end Engineer",
-                "company": "This Website",
-                "location": "Marbella, New York",
-                "range": "Jun 2024",
-                "url": "https://www.gonzalofranco.com",
-                "skills": ["NextJS", "Tailwind CSS", "Figma", "Gatsby", "Vercel"],
-                "responsibilities": [
-                  "This website is built on NextJS and Tailwind.",
-                  "Designed by Beatrice Chiang, whom I copied it from by hand & created own components.",
-                  "Coded using VS Code and deployed on GitHub pages.",
-                  "Hosted for free on GitHub with a custom domain redirect setup.",
-                  "Shoutout to GitHub. Please, please, please, keep this free forever!",
-                  "Serverless, but uses a couple of GraphQL functions to fetch code from self-contained markup text."
-                ]
-              }
             ]
-
+            
 export default data;
+
+const notInUse = {
+              "position": 1000,
+              "date": "2045",
+              "title": "Designer, Front-end Engineer",
+              "company": "This Website",
+              "location": "Marbella, New York",
+              "range": "Jun 2024",
+              "url": "https://www.gonzalofranco.com",
+              "skills": ["NextJS", "Tailwind CSS", "Figma", "Gatsby", "Vercel"],
+              "responsibilities": [
+                "This website is built on NextJS and Tailwind.",
+                "Coded using VS Code and deployed on GitHub pages.",
+                "Hosted for free on GitHub with a custom domain redirect setup.",
+                "Shoutout to GitHub. Please, please, please, keep this free forever!",
+                "Serverless, but uses a couple of GraphQL functions to fetch code from self-contained markup text."
+              ]
+}
