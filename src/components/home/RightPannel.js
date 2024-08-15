@@ -8,6 +8,9 @@ import Nav from './leftPannelComponents/Nav';
 
 const RightPannel = () => {
   const [selected, setSelected] = useState(1);
+  const [windowWidth, setWindowWidth] = useState(
+    typeof window !== 'undefined' ? window.innerWidth : 0
+  );
 
   const introRef = useRef(null);
   const experienceRef = useRef(null);
@@ -15,29 +18,41 @@ const RightPannel = () => {
   const FooterRef = useRef(null);
 
   useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(() => {
     const scrollToSection = (ref) => {
-      if (ref.current) {
+      if (ref.current && windowWidth >= 1024) {
         ref.current.scrollIntoView({ behavior: 'smooth' });
       }
     };
 
-    switch (selected) {
-      case 1:
-        scrollToSection(introRef);
-        break;
-      case 2:
-        scrollToSection(experienceRef);
-        break;
-      case 3:
-        scrollToSection(projectsRef);
-        break;
-      case 4:
-        scrollToSection(FooterRef);
-        break;
-      default:
-        break;
+    if (windowWidth >= 1024) {
+      switch (selected) {
+        case 1:
+          scrollToSection(introRef);
+          break;
+        case 2:
+          scrollToSection(experienceRef);
+          break;
+        case 3:
+          scrollToSection(projectsRef);
+          break;
+        case 4:
+          scrollToSection(FooterRef);
+          break;
+        default:
+          scrollToSection(introRef);
+          break;
+      }
     }
-  }, [selected]);
+  }, [selected, windowWidth]);
 
   return (
     <>
