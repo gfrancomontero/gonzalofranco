@@ -5,7 +5,7 @@ const data = [
                 "title": "Lead Engineer",
                 "company": "Sublet NY",
                 "location": "New York",
-                "range": "Feb 2024 - Present",
+                "range": "Feb 2024 - Aug 2024",
                 "url": "https://www.subletny.com",
                 "skills": ["Web3", "Algolia", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku", "Docker", "Twilio"],
                 "responsibilities": [
