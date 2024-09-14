@@ -5,7 +5,7 @@ import Button from '../../../components/layout/Button.js'
 
 const Intro: React.FC = () => {
   const [readMore, setReadMore] = useState(false);
-  const skills: string[] = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Ruby', 'Python', 'Solidity', 'Node.js', 'AWS', 'OpenAI Vision', 'GraphQL', 'JWT'];
+  const skills: string[] = ['JavaScript (ES6+)', 'Web3.js', 'PyTorch (AI)', 'TensorFlow (AI)',  'TypeScript', 'React', 'Ruby', 'Python', 'Solidity', 'Node.js', 'AWS', 'OpenAI Vision', 'GraphQL', 'JWT'];
 
   return (
     <div className="md:px-10 mt-40 md:mt-0 lg:p-0 text-lg w-full text-left leading-normal text-slate-400">
@@ -41,34 +41,36 @@ const Intro: React.FC = () => {
       ) : (
         <>
           <p className="mb-4">
-            My journey in software engineering began several years ago when needing to implement custom automation flows to optimize business functionalities with tech. The intricacies of Infra & Backend systems became unveiled — curiosity did the rest.
+            My path in engineering started by having to automate business operations for an agency I ran in NYC about 10 years ago, where I quickly uncovered the power of infrastructure, coding, and backend systems — I&apos;ve been ever curious and pushing boundaries since.
           </p>
             
           <p className="mb-4">
-            Throughout this perpetual journey of discovery, I have perfected an ability that lies in crafting modern, innovative, and impeccable systems.
+            Over time, I&apos;become exceptional at building functional and transformative products. 
           </p>
 
           <p className="mb-4">
-            There is supreme elegance in carrying out a task with such precision and complexity that it remains invisible to the naked eye, yet crucial to the digital experiences of the general population. It&apos;s like building invisible yet essential modern-world marvels upon which millions rely. Some software programs demand more time, precision, and collaboration than building projects like the Empire State Building, an Airbus A380, or the Taj Mahal. And that&apos;s fascinating to me. I&apos;m fluent in every HTML, CSS, and JavaScript framework I&apos;ve pursued. Strong product, infra & DB experience as well.
+            The beauty of engineering lies in creating solutions that, while invisible, drive critical digital experiences for millions. Whether it&apos;s scalable APIs or entire platforms, my expertise spans the full stack — from mastering HTML, CSS, and JavaScript/Web3 frameworks to deep product and infrastructure knowledge.
           </p>
 
           <p className="mb-4">
-            I am captivated by the beauty of mesmerizing design and user experience, and this lets me spend hundreds of hours creating the designs I so deeply admire.
+            Beyond code, I&apos;m equally driven by design and user experience, investing hundreds of hours into perfecting the look and feel of every product I build.
           </p>
 
           <p className="mb-4">
-            In addition to my engineering work, I&apos;ve successfully led teams of 30+ people, managed multi-million dollar production budgets, product lifecycles,
-            and been an integral part in securing venture capital, both for my companies and for others. My last tech company was {' '}<Link href="https://www.que.madrid/2023/01/19/openbroker-cierra-una-ronda-de-tres-millones-de-euros-encabezada-por-sherry-ventures-391155/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">valued at 3 Million €</Link>.{' '}
+            I&apos;ve built and led teams of 30+, managed multi-million dollar budgets, and helped secure venture capital. Both for others as well as for my own companies. My last company was <Link href="https://www.que.madrid/2023/01/19/openbroker-cierra-una-ronda-de-tres-millones-de-euros-encabezada-por-sherry-ventures-391155/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">valued at 3 million €</Link>.
           </p>
+
           <p className="mb-8">
-            Here are a few technologies I&apos;ve been working with recently:
+            Technologies I&apos;ve been working with recently include:
           </p>
+          
           <ul className="flex flex-wrap">
             {skills && skills.map((skill, i) =>
               <Chip className="mr-2 mb-2 hover:text-slate-600 cursor-default transition" color="secondary" variant="flat" key={i}>{skill}</Chip>
             )}
           </ul>
         </>
+
       )}
     </div>
   );
