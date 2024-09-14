@@ -85,7 +85,7 @@ const data = [
                 "url": "https://www.openbroker.com",
                 "skills": ["+50 Apps Built", "NextJS", "HotWire", "Ruby on Rails", "GraphQL", "Tailwind", "NodeJS"],
                 "responsibilities": [
-                  "Developed and implemented more than 50 scalable web applications for clients using Next.js, Tailwind, and Node.js.",
+                  "Developed and implemented +50 scalable web applications for clients using Next.js, Tailwind, and Node.js.",
                   "Built apps fetching data from public APIs via GraphQL, enabling seamless data exchange and enhancing platform functionality.",
                   "Designed and optimized the user interface for Real Estate's property listing portals, improving user experience and engagement.",
                   "Collaborated with a team of over 30 developers to deploy applications on Heroku, Vercel, and Digital Ocean, ensuring robust and reliable performance."
@@ -102,11 +102,12 @@ const data = [
                 "skills": ["NextJS", "Algolia AI", "CircleCI", "AWS", "OpenAI Vision", "GraphQL", "Ruby on Rails", "Stimulus JS", "Postgres", "PostGIS", "Sidekiq"],
                 "responsibilities": [
                   "Built using NextJS, Ruby on Rails, React, Stimulus JS, PostgreSQL, PostGIS, and AWS Web Services.",
-                  "Secured €180,000 led by Sherry Ventures, post launch.",
+                  "Raised capital at 3.2M € valuation led by Sherry Ventures.",
                   "Implemented APIs: OpenAI, Stripe Payments, Twilio, Google Maps, Google Analytics, Meta Analytics, etc.",
                   "CI/CD; Heroku, Elasticsearch, Logstash, Kibana, Segment Analytics, ActiveMQ. Many other code management tools.",
                   "Designed & implemented GraphQL & RESTful APIs, enabling strategic integrations with web-dev agencies.",
-                  "This allowed the creation of database-less property listing portals, streamlining data flow and minimizing redundancy."
+                  "This allowed the creation of database-less property listing portals, streamlining data flow and minimizing redundancy.",
+                  "Onboarded + 300 clients"
                 ]
               },
             ]
