@@ -16,7 +16,7 @@ const Intro: React.FC = () => {
             a{' '}<Link href="https://neuehouse.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">NYC startup</Link>,{' '}
             a{' '}<Link href="https://supercharge.nyc/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">content agency</Link>,{' '}
             a{' '}<Link href="https://www.ihg.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">huge corporation</Link>, and{' '}
-            {' '}<Link href="https://linkedin.com/in/gfrancomontero/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">3 of my own startups</Link>.
+            {' '}<Link href="https://www.crunchbase.com/person/gonzalo-franco" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">3 of my own startups</Link>.
           </p>
           <p className="mb-4">
             In addition to my engineering work, I&apos;ve successfully led teams of 30+ people, managed multi-million dollar production budgets, product lifecycles,
