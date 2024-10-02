@@ -13,7 +13,7 @@ const Intro: React.FC = () => {
         <>
           <p className="mb-4">
             Built in Spain. Assembled in New York City. Fast forward — I&apos;ve had the opportunity to work in diverse environments including
-            a{' '}<Link href="https://neuehouse.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">NYC startup</Link>,{' '}
+            an{' '}<Link href="https://neuehouse.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">Incredible NYC startup</Link>,{' '}
             a{' '}<Link href="https://supercharge.nyc/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">content agency</Link>,{' '}
             a{' '}<Link href="https://www.ihg.com/" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">huge corporation</Link>, and{' '}
             {' '}<Link href="https://www.crunchbase.com/person/gonzalo-franco" className="text-green-300 opacity-80 hover:opacity-180 transition-opacity font-bold">3 of my own startups</Link>.
