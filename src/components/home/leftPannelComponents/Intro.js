@@ -17,8 +17,8 @@ export default function Intro() {
       </h2>
       <p className="  text-slate-400 leading-normal
                       mt-4 md:max-w-[500px] sm:max-w-[500px]">
-        Software Engineer with 6+ years of hands-on experience in full-cycle product development. United States Green-Card holder: Extraordinary-Abilities.
-        Notable startup background. Analytical, ever-curious, and a blazingly fast learner. Fluent in English, German and Spanish.
+        Software Engineer with 6+ years of hands-on experience in full-cycle product development. United States Green-Card holder. Category: Extraordinary-Abilities.
+        Notable startup background. Analytical, ever-curious, and a blazingly fast learner. Fluent in English, German and Spanish. Conversational in French & Portuguese.
       </p>
     </>
   )
