@@ -5,7 +5,7 @@ const data = [
                 "title": "Lead Engineer",
                 "company": "Sublet NY",
                 "location": "New York",
-                "range": "Feb 2024 - Aug 2024",
+                "range": "Feb 2021 - Present",
                 "url": "https://www.subletny.com",
                 "skills": ["Web3", "Algolia", "NextJS", "Tailwind", "Stripe", "Ruby on Rails", "Heroku", "Docker", "Twilio"],
                 "responsibilities": [
@@ -120,13 +120,11 @@ const data = [
                 "url": "https://www.eth-roulette.com/",
                 "skills": ["MongoDB", "Express.js", "Next.js", "Web3.js", "Redux", "Alchemy", "Ethereum", "MetaMask", "Socket.IO", "Vercel", "Heroku"],
                 "responsibilities": [
-                  "Spearheaded the development of a decentralized roulette application, enabling seamless Ethereum-based betting transactions through MetaMask integration.",
+                  "Development a decentralized & anonymous roulette application, enabling seamless Ethereum-based betting transactions through MetaMask integration.",
                   "Built a secure backend using Express.js to manage user accounts, betting logic, and balance tracking.",
-                  "Utilized Web3.js and Alchemy to interact with the Ethereum blockchain for deposit, bet placement, and payout processes.",
-                  "Designed and implemented a responsive front-end using Next.js and TailwindCSS, ensuring an optimal user experience across devices.",
-                  "Deployed the application frontend on Vercel and backend on Heroku, utilizing environment variables to manage sensitive credentials securely.",
-                  "Integrated real-time data and updates using Web3.js, ensuring accurate tracking of user bets and balances.",
-                  "Collaborated with design and marketing teams to enhance the application's UI/UX, boosting user engagement and retention."
+                  "Utilized Web3.js and Alchemy to interact with ERC20 blockchain for deposit, bet placement, and payout processes.",
+                  "Deployment: frontend on Vercel and backend on Heroku",
+                  "Integrated real-time data and updates using Web3.js, ensuring accurate tracking of user bets and balances, and gas fees."
                 ]
               }              
             ]
