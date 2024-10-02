@@ -98,7 +98,7 @@ const data = [
                 "company": "OpenBroker",
                 "location": "Marbella, New York",
                 "range": "July 2020 - Present",
-                "url": "https://www.openbroker.com/music/",
+                "url": "https://www.openbroker.com/",
                 "skills": ["NextJS", "Algolia AI", "CircleCI", "AWS", "OpenAI Vision", "GraphQL", "Ruby on Rails", "Stimulus JS", "Postgres", "PostGIS", "Sidekiq"],
                 "responsibilities": [
                   "Built using NextJS, Ruby on Rails, React, Stimulus JS, PostgreSQL, PostGIS, and AWS Web Services.",
@@ -110,6 +110,25 @@ const data = [
                   "Onboarded + 300 clients"
                 ]
               },
+              {
+                "position": 5,
+                "date": "2024-12-05",
+                "title": "Lead Engineer",
+                "company": "Ethereum Roulette",
+                "location": "🌎 Global",
+                "range": "Sept 2024 - Present",
+                "url": "https://www.eth-roulette.com/",
+                "skills": ["MongoDB", "Express.js", "Next.js", "Web3.js", "Redux", "Alchemy", "Ethereum", "MetaMask", "Socket.IO", "Vercel", "Heroku"],
+                "responsibilities": [
+                  "Spearheaded the development of a decentralized roulette application, enabling seamless Ethereum-based betting transactions through MetaMask integration.",
+                  "Built a secure backend using Express.js to manage user accounts, betting logic, and balance tracking.",
+                  "Utilized Web3.js and Alchemy to interact with the Ethereum blockchain for deposit, bet placement, and payout processes.",
+                  "Designed and implemented a responsive front-end using Next.js and TailwindCSS, ensuring an optimal user experience across devices.",
+                  "Deployed the application frontend on Vercel and backend on Heroku, utilizing environment variables to manage sensitive credentials securely.",
+                  "Integrated real-time data and updates using Web3.js, ensuring accurate tracking of user bets and balances.",
+                  "Collaborated with design and marketing teams to enhance the application's UI/UX, boosting user engagement and retention."
+                ]
+              }              
             ]
             
 export default data;
