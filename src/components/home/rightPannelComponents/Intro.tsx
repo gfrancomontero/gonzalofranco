@@ -45,7 +45,7 @@ const Intro: React.FC = () => {
           </p>
             
           <p className="mb-4">
-            Over time, I&apos;become exceptional at building functional and transformative products. 
+            Over time, I&apos;ve become exceptional at building functional and transformative products. 
           </p>
 
           <p className="mb-4">

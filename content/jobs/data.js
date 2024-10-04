@@ -4,6 +4,7 @@ const data = [
                 "date": "2024-12-06",
                 "title": "Lead Engineer",
                 "company": "Sublet NY",
+                "image": "subletny.png",
                 "location": "New York",
                 "range": "Feb 2021 - Present",
                 "url": "https://www.subletny.com",
@@ -22,6 +23,7 @@ const data = [
                 "title": "Co-Founder, Tech PM",
                 "company": "CleanHero",
                 "location": "New York, NY",
+                "image": "cleanhero.png",
                 "range": "Jul - Dec 2016",
                 "url": "https://cleanhero.com/",
                 "skills": ["React", "Swift", "Xcode", "Rails", "Heroku", "PostgreSQL", "Sidekiq", "Airtable"],
@@ -39,6 +41,7 @@ const data = [
                 "company": "Supercharge Productions Inc.",
                 "location": "New York, NY",
                 "range": "2015 - 2019",
+                "image": "superchage.png",
                 "url": "",
                 "skills": [
                   "Media Buying",
@@ -65,6 +68,7 @@ const data = [
                 "date": "2013",
                 "title": "Ops Manager",
                 "company": "NeueHouse",
+                "image": "neuehouse.png",
                 "location": "New York, NY",
                 "range": "Jul 2012 - Sept 2013",
                 "url": "https://neuehouse.com/",
@@ -96,6 +100,7 @@ const data = [
                 "date": "2024-12-05",
                 "title": "CEO, Lead Engineer",
                 "company": "OpenBroker",
+                "image": "openbroker.png",
                 "location": "Marbella, New York",
                 "range": "July 2020 - Present",
                 "url": "https://www.openbroker.com/",
@@ -115,6 +120,7 @@ const data = [
                 "date": "2024-12-05",
                 "title": "Lead Engineer",
                 "company": "Ethereum Roulette",
+                "image": "eth-roulette.png",
                 "location": "🌎 Global",
                 "range": "Sept 2024 - Present",
                 "url": "https://www.eth-roulette.com/",
@@ -131,20 +137,3 @@ const data = [
             
 export default data;
 
-const notInUse = {
-              "position": 1000,
-              "date": "2045",
-              "title": "Designer, Front-end Engineer",
-              "company": "This Website",
-              "location": "Marbella, New York",
-              "range": "Jun 2024",
-              "url": "https://www.gonzalofranco.com",
-              "skills": ["NextJS", "Tailwind CSS", "Figma", "Gatsby", "Vercel"],
-              "responsibilities": [
-                "This website is built on NextJS and Tailwind.",
-                "Coded using VS Code and deployed on GitHub pages.",
-                "Hosted for free on GitHub with a custom domain redirect setup.",
-                "Shoutout to GitHub. Please, please, please, keep this free forever!",
-                "Serverless, but uses a couple of GraphQL functions to fetch code from self-contained markup text."
-              ]
-}
